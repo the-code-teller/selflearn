@@ -1,0 +1,46 @@
+Course 2: Data Analytics with Python
+
+Teacher Name: Prof. A Ramesh 
+
+Teacher Designation: Assistant Professor at the Department of Management Studies at Indian Institute of Technology Roorkee.
+
+Course Description: I am looking forward to sharing many exciting stories and examples of analytics with all of you using python programming language. This course includes examples of analytics in a wide variety of industries, and I hope that students will learn how we can use analytics in their career and life. One of the most important aspects of this course is that you, the student, are getting hands-on experience creating analytics models.
+
+Lectures:
+
+Data Analytics with Python
+    Link:   https://www.youtube.com/embed/4SJ7bEILPJk
+
+
+Lec 1, Introduction to Data Analytics
+     Link:  https://www.youtube.com/embed/YZf5q-ICf8Y
+
+Lec 2, Python Fundamentals -I
+    Link:  https://www.youtube.com/embed/HMAf_dSJujM
+
+Lec 3, Python Fundamentals -II
+    Link:  https://www.youtube.com/embed/zcvetGj_FSY
+
+Lec 4, Central Tendency and Dispersion - I
+    Link:  https://www.youtube.com/embed/1MiT06JFNo4
+
+Lec 5, Central Tendency and Dispersion - II
+    Link:  https://www.youtube.com/embed/6lQn1hdG43o
+
+Lec 6, Introduction to Probability-I
+    Link:  https://www.youtube.com/embed/yr7zgeJ_XTA
+
+Lec 7, Introduction to Probability-II
+    Link:  https://www.youtube.com/embed/oYRKXOsgPEM
+
+Lec 8, Probability Distribution - I
+    Link:  https://www.youtube.com/embed/CU0XDuT3Qew
+
+Lec 9, Probability Distribution - II
+    Link:  https://www.youtube.com/embed/xY-5a0YFuRs
+
+Lec 10, Probability Distributions - III
+    Link:  https://www.youtube.com/embed/HRjNiUdKqmU
+
+Lecture 11, Python Demo for Distribution
+    Link:  https://www.youtube.com/embed/7inQUia4r60

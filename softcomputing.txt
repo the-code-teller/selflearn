@@ -1,0 +1,69 @@
+Course 1: Introduction to Soft Computing
+
+Teacher Name : Prof Debasis Samanta
+
+Teacher Designation: Faculty member at the Department of Computer Science & Engineering at IIT Kharagpur.
+
+Course Description:   I take this  opportunity to welcome you to the course Soft Computing. Soft computing is an emerging approach to computing which parallel the remarkable ability of the human mind to reason and learn in an environment of uncertainty and imprecision. Soft computing is based on some biological inspired methodologies such as genetics, evolution, ant’s behaviors, particles swarming, human nervous systems, etc. Now, soft computing is the only solution when we don’t have any mathematical modeling of problem solving (i.e., algorithm), need a solution to a complex problem in real time, easy to adapt with changed scenario and can be implemented with parallel computing. It has enormous applications in many application areas such as medical diagnosis, computer vision, hand written character recondition, pattern recognition, machine intelligence, weather forecasting, network optimization, VLSI design, etc.
+
+Lectures:
+
+Lecture 1: Introduction to Soft Computing
+    Link : https://www.youtube.com/embed/K9gjuXjJeEM
+
+Lecture 2: Introduction to Fuzzy Logic
+   Link: https://www.youtube.com/embed/-U-QCX2C8T8
+
+Lecture 3 : Fuzzy membership functions (Contd.) and Defining Membership functions
+    Link: https://www.youtube.com/embed/whIR88tAANE
+
+Lecture 4 : Fuzzy operations
+    Link: https://www.youtube.com/embed/LZ6t6JShtKw
+
+Lecture 5 : Fuzzy relations
+    Link: https://www.youtube.com/embed/ToaI2MEC5x0
+
+Lecture 6 : Fuzzy Relations (contd.) & Fuzzy propositions
+    Link: https://www.youtube.com/embed/n3E4oVdJtO4
+
+Lecture 7 : Fuzzy implications
+    Link: https://www.youtube.com/embed/n9MTaa-rZr4
+
+Lecture 8 : Fuzzy Inferences
+    Link: https://www.youtube.com/embed/uTYepvHqdrA
+
+Lecture 9 : Defuzzification techniques (Part-I)
+    Link: https://www.youtube.com/embed/xwJDnnhl4RQ
+
+Lecture 10 : Defuzzification Techniques (Part-I) (contd.)
+   Link: https://www.youtube.com/embed/WebTnQacBYs
+
+Lecture 11 : Fuzzy logic controller
+   Link: https://www.youtube.com/embed/OnJRw2EP3_g
+
+Lecture 12 : Fuzzy Logic Controller (Contd.)
+   Link: https://www.youtube.com/embed/TSH2wm8xFKY
+
+Lecture 13 : Fuzzy logic controller (Cond.)
+   Link: https://www.youtube.com/embed/9ycFAAfZ75s
+
+Lecture 14 : Concept of Genetic Algorithm
+   Link: https://www.youtube.com/embed/Fs5ZIjp1hUk
+
+Lecture 15 : Concept of Genetic Algorithm (Contd.) and GA Strategies
+   Link: https://www.youtube.com/embed/-G0qHu7cHNo
+
+Lecture 16 : GA Operator : Encoding schemes
+   Link: https://www.youtube.com/embed/1BIXfoLzvxE
+
+Lecture 17 : GA operator : encoding scheme (contd.)
+   Link: https://www.youtube.com/embed/DjulSsaGRgc
+
+Lecture 18 : GA Operator : Selection
+    Link: https://www.youtube.com/embed/0Rn-sZ-D55g
+
+Lecture 19 : GA Operator Selection (Contd.)
+    Link: https://www.youtube.com/embed/1jGeHqnUA-A
+
+Lecture 20 : GA Operator: Crossover techniques
+    Link: https://www.youtube.com/embed/ZhfXXf7bnYE

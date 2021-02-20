@@ -1,0 +1,41 @@
+Course 2 : Fundamentals of Database Systems
+
+Teacher Name : Prof. Arnab Bhattacharya
+
+Teacher Designation: Professor, IIT Kanpur
+
+Course Description : DBMS is database management system. Databases are the collection of data in order to store and retrieve data. The database consists of data which can be a numeric, alphabetic and also alphanumeric form. Analyzing data is a key feature of database management system that is DBMS.
+
+1. Fundamentals of Database Systems || Tutorial #1 || Fundamentals of Database Systems
+Link: https://www.youtube.com/embed/8e-wgQnsFxE
+
+2. Fundamentals of Database Systems || Tutorial #2 || Relational Data Model
+Link: https://www.youtube.com/embed/yj88AaVJ8QQ
+
+3. Fundamentals of Database Systems || Tutorial #3 || Relational Algebra Basic Operators
+Link: https://www.youtube.com/embed/W2_Xp3V7tCg
+
+4. Fundamentals of Database Systems || Tutorial #4 || Relational Algebra Composition of Operators
+Link: https://www.youtube.com/embed/njfHn4qJ9M8
+
+5. Fundamentals of Database Systems || Tutorial #5 || Relational Algebra Additional Operators
+Link: https://www.youtube.com/embed/IH4k6CnlCZ4
+
+6. Fundamentals of Database Systems || Tutorial #6 || Relational Algebra Extended Relational Algebra
+Link: https://www.youtube.com/embed/SSOZiOw3zHQ
+
+7. Fundamentals of Database Systems || Tutorial #7 || Relational Algerbra: Database Modification
+Link: https://www.youtube.com/embed/rfH9Q4gS9BQ
+
+8. Fundamentals of Database Systems || Tutorial #8 || SQL introduction and Data Definition
+Link: https://www.youtube.com/embed/-gVcV-OFOyI
+
+9. Fundamentals of Database Systems || Tutorial #9 || SQL: Basic Queries
+Link: https://www.youtube.com/embed/qfQqXoZjqSo
+
+10. Fundamentals of Database Systems || Tutorial #8 || SQL: Advanced Queries
+Link: https://www.youtube.com/embed/sjzlr0EsZL4
+
+11. Fundamentals of Database Systems || Tutorial #8 || SQL: Updates, Joins, Views and Triggers
+Link: https://www.youtube.com/embed/dUAkwjfw-gI
+
