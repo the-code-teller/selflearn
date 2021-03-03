@@ -3,7 +3,7 @@
 echo "<form action='/selflearn.com/admin/chapters' method='get'>
     <input type='hidden' name='active' value='chapters'>
     <div class='form-group d-flex m-3'>
-        <select class='form-control' id='courseID' name='courseID'>
+        <select class='form-control' id='courseID' name='courseID' onchange='fetchChapterTable(this.value)'>
         <option selected>Select Course</option>";
 
 $sql = "SELECT * FROM `courses`";

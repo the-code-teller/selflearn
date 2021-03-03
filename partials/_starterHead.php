@@ -28,6 +28,12 @@ echo "<!doctype html>
         });
     </script>
 
+    <!-- Javascript -->
+    <script src='validation.js'></script>
+
+    <!-- JQuery -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
     <title>selfLearn | Your Home to Success</title>
 </head>
 
