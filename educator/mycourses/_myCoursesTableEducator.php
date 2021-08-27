@@ -60,7 +60,7 @@ echo "<div class='m-3 table-responsive'>
                     
                     echo "</td>
                     <td class='d-flex'>
-                        <a href='/selflearn.com/educator/modules/?cid=$courseID' type='button' class='btn text-success'><i class='bi bi-chevron-double-right h5'></i></a>
+                        <a href='/selflearn/educator/modules/?cid=$courseID' type='button' class='btn text-success'><i class='bi bi-chevron-double-right h5'></i></a>
                         <button type='button' class='btn text-success' data-bs-toggle='modal' data-bs-target='#updateCourseModal$courseID'><i class='bi bi-pencil-square h5'></i></button>
                         <button type='button' class='btn text-danger' data-bs-toggle='modal' data-bs-target='#deleteCourseModal$courseID'><i class='bi bi-trash h5'></i></button>
                     </td>

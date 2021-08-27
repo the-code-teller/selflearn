@@ -41,7 +41,7 @@ if ($loggedin) {
 
                         if ($paymentStatus == 'SUCCESS') {
                             echo "<div class='text-center my-5'>
-                                <a href='/selflearn.com/coursedetails/?courseID=$courseID' type='button' class='btn btn-success'>Go to Course</a>
+                                <a href='/selflearn/coursedetails/?courseID=$courseID' type='button' class='btn btn-success'>Go to Course</a>
                             </div>";
                         }
                     echo "</div>";

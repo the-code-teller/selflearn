@@ -10,7 +10,7 @@ echo "<!-- Modal -->
                 </div>";
                 echo "<div class='modal-body'>";
 
-                echo "<iframe width='900' height='550' src='/selflearn.com/educator/video/$moduleFileName' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                echo "<iframe width='900' height='550' src='/selflearn/educator/video/$moduleFileName' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 
                 echo "</div>
             </div>

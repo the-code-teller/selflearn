@@ -9,7 +9,7 @@ echo "<style>
     <script>
         
     </script>
-<form action='/selflearn.com/signup.php' method='post' onsubmit='return signupValidation()'>
+<form action='/selflearn/signup.php' method='post' onsubmit='return signupValidation()'>
     <div class='mb-3'>
         <label for='studentEmail' class='form-label'>Email</label>
         <input type='email' class='form-control' id='studentEmail' name='studentEmail'>

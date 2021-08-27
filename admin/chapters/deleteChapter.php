@@ -16,6 +16,6 @@ if (isset($_POST['courseTableName'])) {
 $sql = "DELETE FROM `$courseTableName` WHERE `chapterID` = $chapterID";
 $result = mysqli_query($con, $sql);
 
-header('location: /selflearn.com/admin/chapters?active=chapters&courseID=$courseID');
+header('location: /selflearn/admin/chapters?active=chapters&courseID=$courseID');
 
 ?>

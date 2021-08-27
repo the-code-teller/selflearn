@@ -6,7 +6,7 @@ echo "<div class='container-fluid my-2'>
             <h4>Popular Courses</h4>
         </div>
         <div>
-            <a type='button' href='/selflearn.com/courses' class='text-success text-decoration-none' role='button'>See all courses</a>
+            <a type='button' href='/selflearn/courses' class='text-success text-decoration-none' role='button'>See all courses</a>
         </div>
     </div>";
         

@@ -34,7 +34,7 @@ $result = mysqli_query($con, $sql);
                         $teacherName = $roT['teacherName'];
                         $teacherDesignation = $roT['teacherDesignation'];
                         
-                        include "courses/_courseCard.php";
+                        include "_courseCard.php";
                     }
                     
                 }

@@ -2,8 +2,8 @@
 
 echo "<div class='col'>
     <div class='card h-100'>
-        <a href='/selflearn.com/coursedetails?courseID=$courseID' class='stretched-link'>
-            <img src='/selflearn.com/admin/img/$courseDP' class='card-img-top' alt='...'>
+        <a href='/selflearn/coursedetails?courseID=$courseID' class='stretched-link'>
+            <img src='/selflearn/admin/$courseDP' class='card-img-top' alt='...' height='200px'>
         </a>
         <div class='card-body'>
             <div>

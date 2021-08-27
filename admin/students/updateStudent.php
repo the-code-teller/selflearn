@@ -44,16 +44,16 @@ if(isset($_POST['studentPassword']) && $_POST['studentPassword'] != "") {
         $result = mysqli_query($con, $sql);
         if($result){
             echo "Student Password Updated";
-            header('location: /selflearn.com/admin/students/?active=students?active=students&changePass=success');
+            header('location: /selflearn/admin/students/?active=students?active=students&changePass=success');
         }
     }
     else{
         echo "Passwords do not match";
-        header('location: /selflearn.com/admin/students/?active=students?active=students&changePass=unmatch');
+        header('location: /selflearn/admin/students/?active=students?active=students&changePass=unmatch');
     }
     
 }
 
-header('location: /selflearn.com/admin/students/?active=students?active=students');
+header('location: /selflearn/admin/students/?active=students?active=students');
 
 ?>

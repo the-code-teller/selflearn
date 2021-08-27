@@ -47,7 +47,7 @@ if(isset($_POST['studentOccupation']) && $_POST['studentOccupation'] != "") {
 if(isset($_FILES['studentDP'])) {
     $studentDP = $_FILES['studentDP'];
     $imgName = $studentDP['name'];
-    move_uploaded_file($studentDP['tmp_name'], "img/".$imgName);
+    move_uploaded_file($studentDP['tmp_name'], "../img/".$imgName);
     $sql = "UPDATE `users` SET `studentDP` = '$imgName' WHERE `users`.`studentID` = $studentID";
     $result = mysqli_query($con, $sql);
 
@@ -59,6 +59,6 @@ if(isset($_FILES['studentDP'])) {
     }
 }
 
-header('location: /selflearn.com/profile');
+header('location: /selflearn/profile');
 
 ?>

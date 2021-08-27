@@ -19,12 +19,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $_SESSION['adminUsername'] = $adminUsername;
             $_SESSION['adminName'] = $row['adminName'];
 
-            header("location: /selflearn.com/admin/home");
+            header("location: /selflearn/admin/home");
         } else{
-            header("location: /selflearn.com/admin?login=wrongPass");
+            header("location: /selflearn/admin?login=wrongPass");
         }
     } else {
-        header("location: /selflearn.com/admin?login=notExists");
+        header("location: /selflearn/admin?login=notExists");
     }
 }
 

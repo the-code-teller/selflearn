@@ -8,7 +8,7 @@ echo "<!-- Modal -->
                     <h5 class='modal-title' id='courseDPModalLabel'>$courseTitle</h5>
                     <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                 </div>
-                <img src='/selflearn.com/admin/img/$courseDP' alt='Course Thumbnail'>
+                <img src='/selflearn/admin/img/$courseDP' alt='Course Thumbnail'>
                 <div class='modal-body'>$courseDP</div>
             </div>
         </div>

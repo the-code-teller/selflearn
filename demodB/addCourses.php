@@ -22,7 +22,7 @@ if($result) {
     
     echo "<a href='createTableFeedbacks.php'>Click to create 'feedbacks' Table</a>";
     
-} else {
+} else { 
     echo "Courses could not be added to the 'courses' table";
 }
 

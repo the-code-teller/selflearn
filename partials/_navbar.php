@@ -8,7 +8,7 @@
             <!-- <a class="navbar-brand" href="/selfLearn/">selfLearn</a> -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="/selflearn.com/"><h3>selfLearn</h3></a>
+                    <a class="nav-link active" href="/selflearn/"><h3>selfLearn</h3></a>
                 </li>
             </ul>
             <ul class="navbar-nav d-flex">
@@ -17,10 +17,10 @@
                     if ($loggedin) {
                         echo"
                         <li class='nav-item'>
-                            <a href='/selflearn.com/profile' class='btn nav-link' role='button'>$studentFirstName</a>
+                            <a href='/selflearn/profile' class='btn nav-link' role='button'>$studentFirstName</a>
                          </li>
                         <li class='nav-item mx-1'>
-                            <a href='/selflearn.com/logout.php' class='btn nav-link' role='button'>Logout</a>
+                            <a href='/selflearn/logout.php' class='btn nav-link' role='button'>Logout</a>
                         </li>
                         ";
                     } else {

@@ -1,6 +1,6 @@
 <?php
 
-echo "<form action='/selflearn.com/admin/changeAdminPassword.php?' method='post'>
+echo "<form action='/selflearn/admin/changeAdminPassword.php?' method='post'>
     <div class='mb-3'>
         <label for='adminOldPassword' class='form-label'>Current Password</label>
         <input type='password' class='form-control' id='adminOldPassword' name='adminOldPassword'>

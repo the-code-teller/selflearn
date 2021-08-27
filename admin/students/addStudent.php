@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // $numExistRows = mysqli_num_rows($result);
     
     if($result){
-        header('location: /selflearn.com/students/?active=students?addStudent=exists');
+        header('location: /selflearn/students/?active=students?addStudent=exists');
     } else{
         
         if($studentPassword == $studentCPassword){
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $result = mysqli_query($con, $sql);
         }
         else{
-            header('location: /selflearn.com/students/?active=students?addStudent=unmatch');
+            header('location: /selflearn/students/?active=students?addStudent=unmatch');
         }
         
     }
@@ -38,6 +38,6 @@ if ($result) {
     echo "No";
 }
 
-header('location: /selflearn.com/admin/students/?active=students');
+header('location: /selflearn/admin/students/?active=students');
 
 ?>

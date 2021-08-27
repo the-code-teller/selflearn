@@ -59,6 +59,6 @@ if(isset($_FILES['studentDP'])) {
     }
 }
 
-header('location: /selflearn.com/profile');
+header('location: /selflearn/profile');
 
 ?>

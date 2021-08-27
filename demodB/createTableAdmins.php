@@ -14,7 +14,7 @@ if(mysqli_query($con, $sql)) {
         echo "<h1>All Set!</h1>";
     }
 
-    echo "<a href='/selflearn.com/'>Click to jump to selfLearn.com Home Page</a>";
+    echo "<a href='/selflearn/'>Click to jump to selflearn Home Page</a>";
 
 } else {
     echo "Table 'admins' could not be created";

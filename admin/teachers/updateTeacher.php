@@ -32,6 +32,6 @@ if(isset($_POST['teacherDesignation']) && $_POST['teacherDesignation'] != "") {
     }
 }
 
-header('location: /selflearn.com/admin/teachers?active=teachers');
+header('location: /selflearn/admin/teachers?active=teachers');
 
 ?>

@@ -9,7 +9,7 @@ if (isset($_GET['studentCourseJunctionID'])) {
 $sql = "DELETE FROM `student-course-junction` WHERE `student-course-junction`.`junctionID` = $studentCourseJunctionID";
 $result = mysqli_query($con, $sql);
     
-header('location: /selflearn.com/admin/studentcoursejunction/?active=studentCourseJunction');
+header('location: /selflearn/admin/studentcoursejunction/?active=studentCourseJunction');
 
 
 ?>

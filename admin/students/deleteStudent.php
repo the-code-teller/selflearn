@@ -9,6 +9,6 @@ if (isset($_GET['studentID'])) {
 $sql = "DELETE FROM `users` WHERE `studentID` = $studentID";
 $result = mysqli_query($con, $sql);
 
-header('location: /selflearn.com/admin/students/?active=students');
+header('location: /selflearn/admin/students/?active=students');
 
 ?>

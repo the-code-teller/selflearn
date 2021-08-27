@@ -1,6 +1,6 @@
 <?php
 
-echo "<form action='/selflearn.com/admin/chapters' method='get'>
+echo "<form action='/selflearn/admin/chapters' method='get'>
     <input type='hidden' name='active' value='chapters'>
     <div class='form-group d-flex m-3'>
         <select class='form-control' id='courseID' name='courseID'>

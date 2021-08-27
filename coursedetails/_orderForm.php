@@ -1,6 +1,6 @@
 <?php
 
-echo "<form action='/selflearn.com/coursedetails/order.php?courseID=$courseID' method='post'>
+echo "<form action='/selflearn/coursedetails/order.php?courseID=$courseID' method='post'>
     <div class='mb-3 row'>
         <label for='studentEmail' class='col-sm-2 col-form-label'>E-mail :</label>
         <div class='col-sm-10'>

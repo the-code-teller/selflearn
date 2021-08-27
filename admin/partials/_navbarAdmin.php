@@ -11,7 +11,7 @@ if ($adminLoggedin) {
                 <!-- <a class='navbar-brand' href='/selfLearn/'>selfLearn</a> -->
                 <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
                     <li class='nav-item'>
-                        <a class='nav-link active' href='/selflearn.com/admin/home/'><h3>selfLearn Admin Area</h3></a>
+                        <a class='nav-link active' href='/selflearn/admin/home/'><h3>selfLearn Admin Area</h3></a>
                     </li>
                 </ul>
                 <ul class='navbar-nav d-flex'>
@@ -19,7 +19,7 @@ if ($adminLoggedin) {
                         <a data-bs-toggle='modal' data-bs-target='#updateAdminModal' class='btn nav-link' role='button'>$adminName</a>
                     </li>
                     <li class='nav-item mx-1'>
-                        <a href='/selflearn.com/admin/logout.php' class='btn nav-link' role='button'>Logout</a>
+                        <a href='/selflearn/admin/logout.php' class='btn nav-link' role='button'>Logout</a>
                     </li>
                 </ul>
             </div>

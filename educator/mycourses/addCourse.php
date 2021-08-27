@@ -18,10 +18,10 @@ if ($result) {
     $sql = "INSERT INTO `courses` (`courseID`, `courseTitle`, `courseDescription`, `coursePrice`, `courseDP`, `courseTableName`, `teacherID`) VALUES (NULL, '$courseTitle', '$courseDescription', '$coursePrice', '$imgName', '$courseTableName', '$teacherID');";
     $result = mysqli_query($con, $sql);
     
-    move_uploaded_file($courseDP['tmp_name'], "/selflearn.com/admin/img/".$imgName);
+    move_uploaded_file($courseDP['tmp_name'], "/selflearn/admin/img/".$imgName);
 
 }
 
-header('location: /selflearn.com/admin/courses?active=courses');
+header('location: /selflearn/admin/courses?active=courses');
 
 ?>

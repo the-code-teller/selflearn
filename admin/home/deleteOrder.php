@@ -9,6 +9,6 @@ if (isset($_GET['orderID'])) {
 $sql = "DELETE FROM `orders` WHERE `orderID` = $orderID";
 $result = mysqli_query($con, $sql);
 
-header('location: /selflearn.com/admin/home/');
+header('location: /selflearn/admin/home/');
 
 ?>

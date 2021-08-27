@@ -13,7 +13,7 @@ if ($result) {
     $sql = "DELETE FROM `courses` WHERE `courses`.`courseID` = $courseID";
     $result = mysqli_query($con, $sql);
     
-    header('location: /selflearn.com/admin/courses/?active=courses');
+    header('location: /selflearn/admin/courses/?active=courses');
 }
 
 ?>

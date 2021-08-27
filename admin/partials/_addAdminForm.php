@@ -1,6 +1,6 @@
 <?php
 
-echo "<form action='/selflearn.com/admin/addAdmin.php' method='post' enctype='multipart/form-data'>
+echo "<form action='/selflearn/admin/addAdmin.php' method='post' enctype='multipart/form-data'>
     <div class='mb-3'>
         <label for='adminName' class='form-label'>Name</label>
         <input type='text' class='form-control' id='adminName' name='adminName'>

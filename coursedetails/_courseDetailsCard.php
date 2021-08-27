@@ -3,7 +3,7 @@
 echo "<div class=' container-fluid card border-0 p-5'>
     <div class='row g-0'>
         <div class='col-md-4'>
-            <img src='/selflearn.com/admin/img/$courseDP' class='w-100 h-100' alt='...'>
+            <img src='../admin/$courseDP' class='w-100 h-100' alt='...' height='500px'>
         </div>
         <div class='col-md-8'>
             <div class='card-body'>    

@@ -6,43 +6,43 @@ echo "<div class='nav flex-column nav-pills me-3 my-4' id='v-pills-tab' role='ta
     if ($active == "home") {
         echo "active";
     }
-    echo "' href='/selflearn.com/admin/home?active=home' role='tab' aria-controls='v-pills-home' aria-selected='true'>Home</a>";
+    echo "' href='/selflearn/admin/home?active=home' role='tab' aria-controls='v-pills-home' aria-selected='true'>Home</a>";
 
     echo "<a class='nav-link ";
     if ($active == "courses") {
         echo "active";
     }
-    echo "' href='/selflearn.com/admin/courses?active=courses' role='tab' aria-controls='v-pills-courses' aria-selected='false'>Courses</a>";
+    echo "' href='/selflearn/admin/courses?active=courses' role='tab' aria-controls='v-pills-courses' aria-selected='false'>Courses</a>";
 
     echo "<a class='nav-link ";
     if ($active == "chapters") {
         echo "active";
     }
-    echo "'  href='/selflearn.com/admin/chapters?active=chapters' role='tab' aria-controls='v-pills-chapters' aria-selected='false'>Chapters</a>";
+    echo "'  href='/selflearn/admin/chapters?active=chapters' role='tab' aria-controls='v-pills-chapters' aria-selected='false'>Chapters</a>";
 
     echo "<a class='nav-link ";
     if ($active == "students") {
         echo "active";
     }
-    echo "'  href='/selflearn.com/admin/students?active=students' role='tab' aria-controls='v-pills-students' aria-selected='false'>Students</a>";
+    echo "'  href='/selflearn/admin/students?active=students' role='tab' aria-controls='v-pills-students' aria-selected='false'>Students</a>";
 
     echo "<a class='nav-link ";
     if ($active == "teachers") {
         echo "active";
     }
-    echo "'  href='/selflearn.com/admin/teachers?active=teachers' role='tab' aria-controls='v-pills-teachers' aria-selected='false'>Teachers</a>";
+    echo "'  href='/selflearn/admin/teachers?active=teachers' role='tab' aria-controls='v-pills-teachers' aria-selected='false'>Teachers</a>";
 
     echo "<a class='nav-link ";
     if ($active == "studentCourseJunction") {
         echo "active";
     }
-    echo "'  href='/selflearn.com/admin/studentCourseJunction?active=studentCourseJunction' role='tab' aria-controls='v-pills-studentCourseJunction' aria-selected='false'>Student-Course Junction</a>";
+    echo "'  href='/selflearn/admin/studentCourseJunction?active=studentCourseJunction' role='tab' aria-controls='v-pills-studentCourseJunction' aria-selected='false'>Student-Course Junction</a>";
 
     echo "<a class='nav-link ";
     if ($active == "feedbacks") {
         echo "active";
     }
-    echo "'  href='/selflearn.com/admin/feedbacks?active=feedbacks' role='tab' aria-controls='v-pills-feedbacks' aria-selected='false'>Feedbacks</a>";
+    echo "'  href='/selflearn/admin/feedbacks?active=feedbacks' role='tab' aria-controls='v-pills-feedbacks' aria-selected='false'>Feedbacks</a>";
 
     echo "<a class='nav-link ";
     if ($active == "changePassword") {

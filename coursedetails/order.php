@@ -40,6 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-header("location: /selflearn.com/receipt?orderID=$orderID");
+header("location: /selflearn/receipt?orderID=$orderID");
 
 ?>

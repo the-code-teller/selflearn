@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         if ($nor > 0) {
 
-            header('location: /selflearn.com/admin/home/?addAdmin=exists');
+            header('location: /selflearn/admin/home/?addAdmin=exists');
         } else{
             
             if($adminPassword == $adminCPassword){
@@ -28,11 +28,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $sql = "INSERT INTO `admins` (`adminID`, `adminName`, `adminUsername`, `adminPassword`) VALUES ('$adminID', '$adminName', '$adminUsername', '$hash')";
                 $result = mysqli_query($con, $sql);
                 if($result){
-                    header('location: /selflearn.com/admin/home/?addAdmin=success');
+                    header('location: /selflearn/admin/home/?addAdmin=success');
                 }
             }
             else{
-                header('location: /selflearn.com/admin/home/?addAdmin=unmatch');
+                header('location: /selflearn/admin/home/?addAdmin=unmatch');
             }
             
         }

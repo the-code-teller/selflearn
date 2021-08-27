@@ -10,6 +10,10 @@ echo "<form action='addChapter.php?courseID=$courseID' method='post'>
         <label for='chapterURL' class='form-label'>Chapter URL</label>
         <input type='text' class='form-control' id='chapterURL' name='chapterURL'>
     </div>
+    <div class='mb-3'>
+        <label for='chapterVideo' class='form-label'>Add Video</label>
+        <input type='file' class='form-control' id='chapterVideo' name='chapterVideo'>
+    </div>
     <div class='modal-footer'>
         <button type='submit' class='btn btn-primary'>Add Chapter</button>
         <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>

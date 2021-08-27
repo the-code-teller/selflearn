@@ -16,6 +16,6 @@ $chapterURL = $_POST['chapterURL'];
 $sql = "INSERT INTO `$courseTableName` (`chapterID`, `chapterTitle`, `chapterURL`) VALUES (NULL, '$chapterTitle', '$chapterURL');";
 $result = mysqli_query($con, $sql);
 
-header('location: /selflearn.com/admin/chapters?active=chapters&courseID=$courseID')
+header('location: /selflearn/admin/chapters?active=chapters&courseID=$courseID')
 
 ?>

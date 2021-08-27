@@ -38,6 +38,6 @@ if (isset($_GET['orderID'])) {
     }
 }
 
-header('location: /selflearn.com/admin/home/?active=home');
+header('location: /selflearn/admin/home/?active=home');
 
 ?>

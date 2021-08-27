@@ -24,7 +24,7 @@ if ($result) {
 
             for ($i=1; $i <= 10 && $row = mysqli_fetch_assoc($result) ; $i++) {
 
-                include "mycourses/_myCoursesSQL.php";
+                include "_myCoursesSQL.php";
             }
         }
             

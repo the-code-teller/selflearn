@@ -8,9 +8,9 @@ echo "<div id='carouselExampleCaptions' class='carousel slide carousel-fade' dat
     </ol>
     <div class='carousel-inner'>
         <div class='carousel-item active'>
-            <img src='/selflearn.com/img/wel2.jpg' height='600' class='d-block w-100' alt='...'>
+            <img src='/selflearn/img/wel2.jpg' height='600' class='d-block w-100' alt='...'>
             <div class='carousel-caption d-none d-md-block text-white'>
-                <h2>WELCOME TO SELFLEARN.COM</h2>
+                <h2>WELCOME TO selflearn</h2>
                 <p>THE KEY TO LEARN IS PRACTICE</p>";
 
                 include "_corouselButtons.php";
@@ -18,7 +18,7 @@ echo "<div id='carouselExampleCaptions' class='carousel slide carousel-fade' dat
             echo "</div>
         </div>
         <div class='carousel-item'>
-            <img src='/selflearn.com/img/cors.jpg' height='600' class='d-block w-100' alt='...'>
+            <img src='/selflearn/img/cors.jpg' height='600' class='d-block w-100' alt='...'>
             <div class='carousel-caption d-none d-md-block text-dark'>
                 <h2>BEST ONLINE TUTORIALS</h2>
                 <p>THE KEY TO LEARN IS PRACTICE</p>";
@@ -28,7 +28,7 @@ echo "<div id='carouselExampleCaptions' class='carousel slide carousel-fade' dat
             echo "</div>
         </div>
         <div class='carousel-item'>
-            <img src='/selflearn.com/img/corh.jpg' height='600' class='d-block w-100' alt='...'>
+            <img src='/selflearn/img/corh.jpg' height='600' class='d-block w-100' alt='...'>
             <div class='carousel-caption d-none d-md-block text-dark'>
                 <h2>YOUR HOME FOR KNOWLEDGE</h2>
                 <p>THE KEY TO LEARN IS PRACTICE</p>";

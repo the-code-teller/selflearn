@@ -32,6 +32,6 @@ if(isset($_POST['adminUsername']) && $_POST['adminUsername'] != "") {
     }
 }
 
-header('location: /selflearn.com/admin/home/?active=home');
+header('location: /selflearn/admin/home/?active=home');
 
 ?>

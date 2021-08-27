@@ -45,12 +45,12 @@ if(isset($_POST['coursePrice']) && $_POST['coursePrice'] != 0) {
     }
 }
 
-if(isset($_POST['courseDP'])) {
+if(isset($_FILES['courseDP'])) {
 
     $courseDP = $_FILES['courseDP'];
-    $imgName = "img/".$courseDP['name'];
-    move_uploaded_file($courseDP['tmp_name'], $imgName);
-    $sql = "UPDATE `courses` SET `courseDP` = '$imgName' WHERE `courses`.`courseID` = $courseID";
+    $imgName = $courseDP['name'];
+    move_uploaded_file($courseDP['tmp_name'], "../img/".$imgName);
+    $sql = "UPDATE `courses` SET `courseDP` = '$imgName' WHERE `courseID` = $courseID";
     $result = mysqli_query($con, $sql);
 
     if ($result) {
@@ -101,6 +101,6 @@ if(isset($_POST['teacherID']) && $_POST['teacherID'] != 0) {
     }
 }
 
-header('location: /selflearn.com/courses?active=courses');
+header('location: /selflearn/admin/courses?active=courses');
 
 ?>

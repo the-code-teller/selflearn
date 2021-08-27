@@ -46,7 +46,7 @@ if($result){
                 if ($res) { 
                     $nor = mysqli_num_rows($res);
                     if ($nor != 0) {   
-                        echo "<td class='p-0'><a href='/selflearn.com/chapter/?courseID=$courseID&active=$chapterID' type='button' class='btn'><i class='bi bi-play-fill h3 text-danger'></i></button></td>";
+                        echo "<td class='p-0'><a href='/selflearn/chapter/?courseID=$courseID&active=$chapterID' type='button' class='btn'><i class='bi bi-play-fill h3 text-danger'></i></button></td>";
                     }
                 }
             }

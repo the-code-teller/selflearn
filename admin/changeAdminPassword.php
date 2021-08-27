@@ -24,11 +24,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             }
         }
         else{
-            header('location: /selflearn.com/admin/home/?changePass=unmatch');
+            header('location: /selflearn/admin/home/?changePass=unmatch');
         }
     
     } else {
-        header("location: /selflearn.com/admin/home/?changePass=wrong");
+        header("location: /selflearn/admin/home/?changePass=wrong");
     }
 }
 

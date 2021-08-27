@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO `teachers` (`teacherID`, `teacherName`, `teacherDesignation`) VALUES (NULL, '$teacherName', '$teacherDesignation');";
     $result = mysqli_query($con, $sql);
 
-    header('location: /selflearn.com/admin/teachers/?active=teachers');
+    header('location: /selflearn/admin/teachers/?active=teachers');
     
 }
 

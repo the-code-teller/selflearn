@@ -20,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $result = mysqli_query($con, $sql);
             if($result){
                 echo "Password Changed Successfully! Please Login again to continue.";
-                header("location: /selflearn.com/logout.php");
+                header("location: /selflearn/logout.php");
             }
         }
         else{

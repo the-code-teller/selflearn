@@ -45,6 +45,6 @@ if(isset($_POST['chapterURL']) && $_POST['chapterURL'] != "") {
     echo "Chapter URL not set";
 }
 
-header('location: /selflearn.com/admin/chapters?active=chapters&courseID=$courseID');
+header('location: /selflearn/admin/chapters?active=chapters&courseID=$courseID');
 
 ?>

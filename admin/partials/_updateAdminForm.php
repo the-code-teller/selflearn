@@ -1,6 +1,6 @@
 <?php
 
-echo "<form action='/selflearn.com/admin/updateAdmin.php?adminID=$adminID' method='post'>
+echo "<form action='/selflearn/admin/updateAdmin.php?adminID=$adminID' method='post'>
     <div class='mb-3'>
         <label for='adminName' class='form-label'>Name</label>
         <input type='text' class='form-control' id='adminName' name='adminName'>

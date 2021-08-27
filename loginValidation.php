@@ -25,14 +25,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $_SESSION['studentOccupation'] = $row['studentOccupation'];
         $_SESSION['studentDP'] = $row['studentDP'];
 
-        header("location: /selflearn.com/");
+        header("location: /selflearn/");
       }
       else{
-        header("location: /selflearn.com?login=wrongPass");
+        header("location: /selflearn?login=wrongPass");
       }
     }
   }else{
-    header("location: /selflearn.com?login=notExists");
+    header("location: /selflearn?login=notExists");
   }
 }
 

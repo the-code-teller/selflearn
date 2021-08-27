@@ -5,7 +5,7 @@ echo "<style>
         color : red;
     }
 </style>
-<form action='/selflearn.com/loginValidation.php' method='post'>
+<form action='/selflearn/loginValidation.php' method='post'>
     <div class='mb-3'>
         <label for='studentEmail' class='form-label'>Email</label>
         <input type='email' class='form-control' id='studentEmail' name='studentEmail' onkeyup='checkEmail(this.value)'>

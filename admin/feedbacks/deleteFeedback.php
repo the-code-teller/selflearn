@@ -9,6 +9,6 @@ if (isset($_GET['feedbackID'])) {
 $sql = "DELETE FROM `feedbacks` WHERE `feedbackID` = $feedbackID";
 $result = mysqli_query($con, $sql);
 
-header('location: /selflearn.com/admin/feedbacks/?active=feedbacks');
+header('location: /selflearn/admin/feedbacks/?active=feedbacks');
 
 ?>

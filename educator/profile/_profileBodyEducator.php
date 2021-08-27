@@ -1,7 +1,7 @@
 <?php
 
 echo "<div class='col-sm-2 mt-5'>
-            <img src='/selflearn.com/educator/img/rahulDP.jpg' class='img-fluid'>
+            <img src='/selflearn/educator/img/rahulDP.jpg' class='img-fluid'>
             <button type='button' class='btn btn-success btn-sm mt-3'>Update Profile</button>
             <button type='button' class='btn btn-success btn-sm mt-2'>Change Password</button>
         </div>

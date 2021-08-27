@@ -19,7 +19,7 @@ if (isset($_GET['courseID'])) {
 
         echo "<h3 class='text-center text-success mt-3'>$courseTitle</h3>";
         echo "<div class='border-0 mb-2' style='width: 16rem;'>
-            <img src='/selflearn.com/admin/$courseDP' class='img-thumbnail mx-5 my-2' alt='...'>
+            <img src='../admin/$courseDP' class='img-thumbnail mx-5 my-2' alt='...' height='300px'>
         </div>";
 
         $sql = "SELECT * FROM `$courseTableName`";
@@ -38,7 +38,7 @@ if (isset($_GET['courseID'])) {
                 if ($active == $chapterID) {
                     echo "active";
                 }
-                echo "' href='/selflearn.com/chapter/?courseID=$courseID&active=$chapterID' role='tab' aria-controls='v-pills-$chapterID' aria-selected='true'>$chapterTitle</a>";
+                echo "' href='/selflearn/chapter/?courseID=$courseID&active=$chapterID' role='tab' aria-controls='v-pills-$chapterID' aria-selected='true'>$chapterTitle</a>";
             }
         
         }
